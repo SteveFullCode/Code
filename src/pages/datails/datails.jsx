@@ -1,18 +1,16 @@
 import ButtonText from "../../components/buttonText/buttonText";
-import { Header } from "../../components/header/header";
 import Section from "../../components/section/section";
 import Tag from "../../components/tag/tag";
-
 
 export function Datails() {
   return (
     <main className="h-full w-full">
-         <Header/>
-         <section className=" content-wrapper">
+         
+         <section className="h-content-wrapper overflowY">
          <div className="m-auto max-w-xl py-16"> 
 
-         <div className="text-end">
-         <ButtonText title='Excluir nota'/>
+         <div className="text-end hover:border">
+         <ButtonText title='Excluir nota' isActive={true} />
          </div>
 
          <div className="flex flex-col gap-8">

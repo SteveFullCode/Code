@@ -1,13 +1,15 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import './index.css'
-import Home from './pages/home/home'
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import './index.css';
+import Profile from './pages/profile/profile';
 
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+
+
+createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className=' bg-zinc-800 min-h-screen w-screen'>
-      <Home/>
-    </div>
+      <div className='bg-zinc-800 min-h-screen w-screen'>
+        <Profile/>
+      </div>
   </React.StrictMode>
-)
+);

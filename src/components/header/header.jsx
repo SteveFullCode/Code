@@ -2,7 +2,7 @@ import { FaPowerOff } from "react-icons/fa6";
 
 export function Header() {
     return(
-        <section className=" h-20 w-full border-b border-b-zinc-700 flex items-center justify-between px-20">
+        <section className=" h-20 w-full border-b border-b-zinc-700 flex items-center justify-between pe-7 pl-20">
             <div className="flex items-center gap-4">
                 <img 
                 src="https://github.com/SteveFullCode.png"

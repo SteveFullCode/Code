@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 body{
-    color: white; /* colorir os textos globalmente do site */
+    color: white; 
 }
 
-.content-wrapper {
-    height: calc(100vh - 80px); /* altura da header */
-    overflow-y: auto; /* rolagem vertical somente quando necessário */
-  }

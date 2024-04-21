@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+  
+      },
+      
+      height: {
+        'section': 'calc(100vh - 205px)',
+        'menu': 'calc(100vh - 80px)',
+        'content-wrapper': 'calc(100vh - 80px)',
+      },
+    },
   },
   plugins: [],
 }
