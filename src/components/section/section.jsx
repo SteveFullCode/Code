@@ -2,8 +2,8 @@ import PropTypes from 'prop-types';
 
 const Section = ({ title, children }) => {
     return (
-        <section className='h-section overflow-y-auto'>
-            <h2 className='border-b pt-8 pb-3 border-zinc-700 text-zinc-400'>{title}</h2>
+        <section className='h-full overflow-y-auto'>
+            <h2 className='border-b pt-8 pb-3 border-zinc-700 text-zinc-400 mb-9'>{title}</h2>
             {children}
         </section>
     );

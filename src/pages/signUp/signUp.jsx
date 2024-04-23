@@ -3,6 +3,7 @@ import { MdOutlineAlternateEmail } from "react-icons/md";
 import { GiPadlock } from "react-icons/gi";
 import Button from '../../components/button/Button'
 import { AiOutlineUser } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 export default function SignUp() {
     return(
@@ -12,8 +13,8 @@ export default function SignUp() {
             <h1 className="text-4xl xl:text-5xl  text-orange-400">Web Notes</h1>
             <p className="text-sm">Aplição para salvar e gerenciar seus links úteis.</p>
 
-            <h2 className="text-2xl my-6 ">Crie sua conta</h2>
-            <div className="flex flex-col gap-4">
+            <h2 className="text-2xl my-7 ">Crie sua conta</h2>
+            <div className="flex flex-col">
             <Input
               placeholder='Nome'
               type='text'
@@ -32,7 +33,7 @@ export default function SignUp() {
               />
             </div>
             <Button title="Cadastrar"/>
-            <a href="#"  className='mt-32 text-orange-400'>Ir para o Login</a>
+            <Link to="/"  className='mt-32 text-orange-400'>Ir para o Login</Link>
             </div>
         </div>
     ) 

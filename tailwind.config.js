@@ -7,9 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-  
+        // Defina suas cores personalizadas aqui
       },
-      
       height: {
         'section': 'calc(100vh - 205px)',
         'menu': 'calc(100vh - 80px)',

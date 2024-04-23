@@ -1,6 +1,6 @@
 
 import Brand from '../../components/brand/brand';
-import { Header } from "../../components/header/header";
+import  Header from "../../components/header/header";
 import Input from "../../components/input/input/input";
 import { BiSearchAlt } from "react-icons/bi";
 import Note from '../../components/note/note';

@@ -5,12 +5,13 @@ import { GiPadlock } from "react-icons/gi";
 import { AiOutlineUser } from "react-icons/ai";
 import Button from "../../components/button/Button";
 import { BsFillCameraFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 export default function Profile(){
     return(
         <div className="w-full h-screen flex flex-col">
             <header className="h-32 bg-zinc-900 flex items-center px-28">
-             <a href="#" className="text-3xl"><BsFillArrowLeftCircleFill /></a>
+             <Link to="/" className="text-3xl"><BsFillArrowLeftCircleFill /></Link>
                 <div className=" w-48 h-48 mx-auto container -mb-40 relative">
                  
                     <img
@@ -31,7 +32,7 @@ export default function Profile(){
                 </div>
             </header>
 
-            <form className="max-w-96 flex flex-col m-auto container gap-2">
+            <form className="max-w-96 flex flex-col m-auto container">
                 
             <Input
               placeholder='Nome'
@@ -43,7 +44,7 @@ export default function Profile(){
               type='email'
               icon={MdOutlineAlternateEmail}
             />
-            <div className="pt-3 flex flex-col gap-2">
+            <div className="flex flex-col">
               <Input
                 placeholder='Senha atual'
                 type='password'

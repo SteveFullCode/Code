@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ButtonText from "../buttonText/buttonText";
 import { BsPlus } from "react-icons/bs";
 
@@ -14,10 +15,10 @@ export default function Brand() {
                    <li> <ButtonText title='React.js' isActive/></li> 
                    <li> <ButtonText title='Node.js'/></li> 
                 </ul>
-            <button className="flex justify-center items-center gap-2 bg-orange-400 p-4 text-black">
+            <Link to="/new" className="flex justify-center items-center gap-2 bg-orange-400 p-4 text-black">
                 <BsPlus />
             <p>Criar nota</p>
-            </button>
+            </Link>
             </div>
         </section>
     )
